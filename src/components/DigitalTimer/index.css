@@ -1,0 +1,132 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+}
+.heading {
+  color: #0f712a;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+.digital-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.timer-display-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.elapsed-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.elapsed-time {
+  color: #00d9f5;
+  font-family: 'roboto';
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+.timer-state {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+}
+.control-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.timer-container-section {
+  display: flex;
+  align-items: center;
+}
+.timer-controller-btn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.timer-controller-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.timer-limit-controller-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.limit-label {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.limit-controller-button {
+  background-color: transparent;
+  border: none;
+  margin: 8px;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  cursor: pointer;
+  outline: none;
+}
+.timer-limit-controller {
+  display: flex;
+  align-items: center;
+}
+.limit-label-and-value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.limit-value {
+  text-align: center;
+  color: #1e293b;
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  width: 100px;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 8px;
+}
